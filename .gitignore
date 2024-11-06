@@ -1,0 +1,24 @@
+*.pbw
+*.chm
+
+# ignore for STM32CubeIDE, track .cproject file for Eclipse CDT plugin configuration
+# Eclipse gitignores https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+**/.metadata
+**/.settings/
+**/.loadpath
+**/.recommenders
+
+# External tool builders
+**/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+**/*.launch
+
+**/STM32CubeIDE/Debug/**
+
+# J-Link log, session file
+# http://www.keil.com/appnotes/files/apnt_279.pdf
+# Files that do not need to be monitored
+# INI files for debug adapters
+**/JLinkLog.txt
+**/JLinkSettings.ini
